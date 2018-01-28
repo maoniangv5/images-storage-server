@@ -5,7 +5,7 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
-var config = require('./congig');
+var config = require('./config');
 var api = require('./routes/api');
 
 var app = express();

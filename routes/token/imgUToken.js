@@ -1,6 +1,6 @@
 const qiniu = require('qiniu');
 const express = require('express');
-const Config = require('../../congig');
+const Config = require('../../config');
 const RestMsg = require('../../common/restmsg');
 
 const router = express.Router();
